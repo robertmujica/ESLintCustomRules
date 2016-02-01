@@ -1,0 +1,24 @@
+{
+	"extends": "eslint:recommended",
+	"rules": {
+		"no-alert": 0,
+		"no-bitwise": 0,
+		"curly": 1,
+		"eqeqeq": 0,
+		"no-eq-null": 2,
+		"guard-for-in": 1,
+		"no-empty": 1,
+        "no-console":0,
+        "no-unused-vars" : 0,
+        "camelcase": [2, {"properties": "always"}],
+        "restrict-directive": [2, { "restrict": "AC" }],
+        "no-undef": 0
+	},
+	"globals": {
+		"$": false
+	},
+	"env":{
+		"browser": true,
+		"node": true
+	}
+}

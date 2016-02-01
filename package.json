@@ -1,0 +1,15 @@
+{
+  "name": "eslint-custom-rules",
+  "version": "1.0.0",
+  "description": "ESLint Custom Rules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Mujica",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "gulp-eslint": "^1.1.1"
+  }
+}
